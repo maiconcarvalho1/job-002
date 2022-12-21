@@ -1,0 +1,124 @@
+body {
+    background-image: url(backgroundfloresta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-family: 'Times New Roman', Times;
+    max-width: 1300px;  /*mantem os elementos em harmonia em caso de zoom maior ou menor*/
+    margin:0 auto;  /* site vai ficar centralizada em caso de uma tela maior */
+    padding: 0px; /*margem entre o conteúdo e as bordas*/
+}
+header{
+    margin: 50px auto;
+}
+#title{
+    margin-top: 20px;
+    color:whitesmoke ;
+    text-align: left;
+    font-size: 25px;
+    line-height: 10px;/*aproximou os elementos e, reduziu distância da linha*/
+}
+ul{
+    text-align: center;
+}
+a{
+    margin: 50px; /*dar uma pequena margem nos elementos da caixa,( não na div toda(ul))*/
+    text-decoration: none;
+}
+a li {
+    font-family:'Times New Roman';
+    font-size: 25px;
+    color:white; /*cores do menu*/
+    display: inline;/*todos os elementos do menu vão ficar um ao lado do outro*/
+}
+li:hover {
+
+    font-weight:1000;
+    color: orangered; /*cor que vai ficar ao passar o mouse*/
+}
+h1{ 
+    text-align: center;
+    margin: 60px auto;
+    line-height: 50px; /*distância entre os paragrafos*/
+    font-weight: 900;/* afina a letra da fonte*/
+}
+h2{
+    margin: 80px;
+    text-align: center;
+    color: orangered ;
+    font-size: 33px; /* aumento o tamanho da font*/
+    line-height: 30px; /* aproxima os elementos */
+    font-family:'Times New Roman';
+}
+h3{
+   
+    display:inline-block;
+    font-size: 15px;
+}
+main{
+    display:block;
+    margin-top: 0px;
+}
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2.0vw;
+    padding: 0 0 5vw 0vw;
+}
+.galery-itens{
+    margin: 5px;
+    width: 240px;
+    height: 180px;
+    border: 10px solid #000000;
+}
+.galery-itens img{
+    width:100% ;
+    right: 100%;
+    object-fit: cover;
+}
+span{ 
+    text-align: center;
+    display: ;
+    line-height: 10px;
+    text-decoration: none;
+    color: white;/* vai transformar o texto que esta dentro da tag span na cor desejada*/
+}
+span a:hover {
+    color: blue;
+}
+p{
+    font-size: 20px;
+    line-height: 10px; /*um espaço entre os elementos*/
+    max-width: 700px;/* faz o parágrafo te uma largura máxima de 500pixels*/
+    font-family:Helvetica;/* font da preferência*/
+}
+form [type="submit"]{ /* toda mudança feita aqui só vai valer para o botão tipo "submit"*/
+    height: 50px; /*altura*/
+    width: 50%; /*largura 50% do pai "form"*/
+    background-color: orangered ; /*cor do botão*/
+    color: white;/*fonte com a cor brancas*/
+    font-weight: bold;/*intensidade da fonte*/
+}
+li :hover{ /*aplica o efeito de transformação no botão enviar(submit)*/
+    cursor: pointer;/*aparece a mãozinha quando passa p mouse*/
+}
+
+input{
+    margin-top: 20px;/*da um espaço entre os elementos inputs*/
+    height: 10px;/*altura da aixa do formulário*/
+    padding: 15px; /*bordas internas*/
+    border-radius:  20px ;/*arrendondar as bordas*/
+    border:none; /*tirar a borda abaixo que vem automáticamente*/
+    font-size: 15px;/* aumentar a letra*/
+}
+footer{
+    position: ;
+    margin-top: 50px;
+    background-color:transparent;
+    color: whitesmoke;
+    height: 25px;    
+    text-align: center;
+    line-height: 20px;
+}
+

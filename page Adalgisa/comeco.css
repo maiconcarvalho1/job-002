@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-family: 'Times New Roman', Times;
+    max-width: 1300px;  /*mantem os elementos em harmonia em caso de zoom maior ou menor*/
+    margin:0 auto;  /* site vai ficar centralizada em caso de uma tela maior */
+    padding: 0px; /*margem entre o conteúdo e as bordas*/
+}
+header{
+    margin: 50px auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-size: 25px;
+    color: black;
+    margin: 20px 50px;
+    display: inline-flex;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+main{
+
+    display: inline-block;
+}
+.figura{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1 {
+    margin: 50px auto;
+    color:black ;
+    text-align: center;
+    font-size: 30px;
+}
+img{
+    width: 50%;
+}
